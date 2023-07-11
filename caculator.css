@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,#d001da,#745637,#fe408e21,#e09850,#d61377,#05c82c,rgb(124, 124, 7),lightblue,rgb(164, 42, 42));
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+} 
+#gg{
+    background: linear-gradient(45deg,yellow,pink,violet,blue);
+    border: 2px solid red;
+    width: 25vw;
+    height: 60vh;
+    border-radius: 20px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 5px 10px color-mix(in srgb,white 80%, darkred 20%);
+    margin-left:36vw;
+    margin-top:20vh;
+
+}
+#gg:hover{
+    box-shadow:10px 10px 30px color-mix(in srgb,yellow 75%,pink 25%);
+    }
+
+h1{
+    color:white;
+    font-style: italic;
+    text-shadow: red 3px 3px 7px;
+}
+  #gg p{
+    font-size: larger;
+    font-style:oblique;
+    text-shadow: 3px 3px 6px red;
+  }
+  #gg input{
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 4px 4px 8px darkmagenta;
+    border: none;
+    font-size: large;
+    font-style: oblique;
+    color: red;
+  }
+  #gg input:hover{
+    box-shadow:4px 4px 7px yellow;
+    border: none;
+  }
+  #gg button{
+    border-radius: 30px;
+    width: auto;
+    box-shadow: 2px 2px 6px red;
+    border: none;
+  }
+  #gg button:active{
+    box-shadow: 4px 4px 7px green;
+  }
+
+    
+
